@@ -1,0 +1,24 @@
+{
+  "teams": [
+    { "id": "op-support", "name": "Operational Support" },
+    { "id": "cleaning", "name": "Cleaning Crew" },
+    { "id": "maintenance", "name": "Maintenance" }
+  ],
+  "members": [
+    { "id": "m1", "name": "Alice", "teamId": "op-support", "roles": ["Manager"], "timezone": "America/New_York" },
+    { "id": "m2", "name": "Bob", "teamId": "op-support", "roles": ["Team Leader"], "timezone": "America/New_York" },
+    { "id": "m3", "name": "Charlie", "teamId": "cleaning", "roles": ["Member"], "timezone": "Europe/London" },
+    { "id": "m4", "name": "David", "teamId": "maintenance", "roles": ["Member"], "timezone": "Asia/Tokyo" }
+  ],
+  "rosters": [
+    {
+      "date": "2025-07-19",
+      "assignments": [
+        { "teamId": "op-support", "memberId": "m1", "shift": "08:00-16:00" },
+        { "teamId": "op-support", "memberId": "m2", "shift": "16:00-00:00" },
+        { "teamId": "cleaning", "memberId": "m3", "shift": "07:00-15:00" },
+        { "teamId": "maintenance", "memberId": "m4", "shift": "09:00-17:00" }
+      ]
+    }
+  ]
+}
